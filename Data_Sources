@@ -1,0 +1,18 @@
+Dynamic Data:
+  Live Threat Maps and API Feeds
+  Kaspersky Cyberthreat Map: Shows cyber-attacks and threats in near real-time. While data is usually visual, you can use browser automation or look for available APIs to tap into the feeds.
+Static Data:
+  1. CICIDS2017 Dataset
+    Contains: Labeled network flows with common attacks (Brute Force, Bot, DoS, DDoS, Heartbleed, infiltration, Web Attack, etc.) and benign data.
+    Format: CSV, ready for ML models; covers many real-world threats.
+    Link: CICIDS2017 official page — download the CSV files labeled for machine learning.​
+  2. UNSW-NB15 Dataset
+    Contains: Modern network activities with 9 attack categories (Fuzzer, DoS, Exploits, Reconnaissance, Shellcode, Worms, etc.) and normal traffic.
+    Format: Four CSVs for ML (plus full pcap if needed).
+    Link: UNSW-NB15 dataset info.​
+  3. Kaggle Cyber Threat Datasets
+    Variants: Kaggle has preprocessed versions of CICIDS2017 and UNSW-NB15 (as well as others) for fast access:
+    CICIDS2017 on Kaggle​
+    UNSW-NB15 on Kaggle​
+
+
