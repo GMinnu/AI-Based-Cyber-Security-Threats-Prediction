@@ -1,0 +1,8 @@
+The models used for the AI-Based Cyber Security Threats Prediction project are:
+
+  Random Forest: Supervised classification model for identifying attack types.
+  XGBoost: Supervised classification model optimized for speed and accuracy in threat detection.
+  Isolation Forest: Unsupervised model for anomaly and threat detection in network traffic.
+  Autoencoder: Neural network model for unsupervised anomaly detection.
+  LSTM (Long Short-Term Memory): Recurrent neural network, useful for sequential data and time-series-based threat detection.
+  LLM-based Chatbot (LangChain+LlamaIndex with OpenAI API or Ollama Llama 2): For natural language query handling, explanations, and admin commands in the chatbot interface (fine-tuned on cybersecurity knowledge).
